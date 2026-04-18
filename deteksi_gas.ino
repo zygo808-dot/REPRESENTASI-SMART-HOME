@@ -6,8 +6,8 @@ const char* ssid = "rdm";
 const char* password = "0987654321";
 
 // ================= TELEGRAM =================
-String BOT_TOKEN = "8551918815:AAHvOJWDkcA83TuO2ajzdZYAaNXhyHB3N7U";
-String CHAT_ID  = "8521840171";
+String BOT_TOKEN = "token";
+String CHAT_ID  = "id";
 
 // ================= MQ6 =================
 #define MQ6_PIN 34

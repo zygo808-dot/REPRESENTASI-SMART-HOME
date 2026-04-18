@@ -15,8 +15,8 @@ const int mqtt_port = 1883;
 const char* topic = "suhu/node";
 
 // ================= TELEGRAM =================
-String BOT_TOKEN = "8551918815:AAHvOJWDkcA83TuO2ajzdZYAaNXhyHB3N7U";
-String CHAT_ID  = "8521840171";
+String BOT_TOKEN = "toket";
+String CHAT_ID  = "id";
 
 // ================= DHT =================
 #define DHT_PIN 4

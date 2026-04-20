@@ -5,8 +5,8 @@
 // ====== WiFi & Telegram ======
 const char* ssid = "rdm";
 const char* password = "0987654321";
-const char* botToken = "8551918815:AAHvOJWDkcA83TuO2ajzdZYAaNXhyHB3N7U"; // ganti token
-const String chatID = "8521840171";
+const char* botToken = "token"; // ganti token
+const String chatID = "id";
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);

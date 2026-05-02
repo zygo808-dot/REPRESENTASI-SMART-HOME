@@ -118,7 +118,7 @@ void loop() {
     // ===== TELEGRAM NOTIF (PAKAI DELAY) =====
     if (temperature > 32) {
       if (millis() - lastTelegramSent > telegramDelay) {
-        sendTelegram("⚠️ Suhu Ekstrim: " + String(temperature) + " C");
+        sendTelegram("⚠️ Suhu Ekstrim: " + String(temperature) + "°C | Kelembaban: " + String(humidity) + "%");
         lastTelegramSent = millis();
       }
     }

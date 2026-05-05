@@ -10,7 +10,7 @@ String BOT_TOKEN = "token";
 String CHAT_ID  = "id";
 
 // ================= MQ6 =================
-#define MQ6_PIN 34
+#define MQ6_PIN 32
 
 // ================= BUZZER =================
 #define BUZZER_PIN 15

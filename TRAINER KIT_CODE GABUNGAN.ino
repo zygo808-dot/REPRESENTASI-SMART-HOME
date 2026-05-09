@@ -29,12 +29,12 @@ const char* ssid     = "rdm";
 const char* password = "0987654321";
 
 // Token & Chat ID — satu akun bot dipakai bersama semua proyek
-const char* botToken = "8551918815:AAHvOJWDkcA83TuO2ajzdZYAaNXhyHB3N7U";       // ganti dengan token bot kamu
-const String chatID  = "8521840171";          // ganti dengan chat ID kamu
+const char* botToken = "XXXXX";       // ganti dengan token bot kamu
+const String chatID  = "XXXXX";          // ganti dengan chat ID kamu
 
 // Untuk proyek yang pakai HTTPClient (gas & suhu)
-String BOT_TOKEN_HTTP = "8551918815:AAHvOJWDkcA83TuO2ajzdZYAaNXhyHB3N7U";      // sama dengan botToken di atas
-String CHAT_ID_HTTP   = "8521840171";         // sama dengan chatID di atas
+String BOT_TOKEN_HTTP = "XXXXX";      // sama dengan botToken di atas
+String CHAT_ID_HTTP   = "XXXXXX";         // sama dengan chatID di atas
 
 WiFiClientSecure secureClient;
 UniversalTelegramBot bot(botToken, secureClient);
